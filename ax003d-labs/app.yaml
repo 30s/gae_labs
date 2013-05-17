@@ -9,6 +9,10 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /orca\.txt
+  static_files: orca.txt
+  upload: orca\.txt
+
 - url: .*
   script: main.app
 
